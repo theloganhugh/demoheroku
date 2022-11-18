@@ -91,7 +91,7 @@ export default function Right(props) {
         <form className="w-50" onSubmit={formik.handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name" className={style.flabel}>
-              First Name <span className={style.fspan}>*</span>
+              {"First Name"} <span className={style.fspan}>{"*"}</span>
             </label>
             <input
               type="text"
@@ -105,7 +105,7 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="name" className={style.flabel}>
-              Last Name <span className={style.fspan}>*</span>
+              {"Last Name"} <span className={style.fspan}>{"*"}</span>
             </label>
             <input
               type="text"
@@ -119,7 +119,7 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="email" className={style.flabel}>
-              Email address <span className={style.fspan}>*</span>
+              {"Email address"} <span className={style.fspan}>{"*"}</span>
             </label>
             <input
               type="email"
@@ -140,7 +140,7 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="com_name" className={style.flabel}>
-              Company name
+              {'Company name'}
             </label>
             <input
               type="text"
@@ -154,7 +154,7 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="role" className={style.flabel}>
-              Role <span className={style.fspan}>*</span>
+              {'Role'} <span className={style.fspan}>{'*'}</span>
             </label>
             <Select
               options={options}
@@ -168,7 +168,7 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="cont" className={style.flabel}>
-              Country <span className={style.fspan}>*</span>
+              {'Country'} <span className={style.fspan}>{'*"}</span>
             </label>
             <Select
               options={carr}
@@ -182,8 +182,8 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="plang" className={style.flabel}>
-              Primary development language{" "}
-              <span className={style.fspan}>*</span>
+              {"Primary development language"}
+              <span className={style.fspan}>{'*'}</span>
             </label>
             <Select
               options={poptions}
@@ -197,7 +197,7 @@ export default function Right(props) {
           </div>
           <div className="mb-3">
             <label htmlFor="pass" className={style.flabel}>
-              Password <span className={style.fspan}>*</span>
+              {'Password'} <span className={style.fspan}>{'*'}</span>
             </label>
             <input
               type="password"
@@ -222,7 +222,7 @@ export default function Right(props) {
           ></ReCAPTCHA>
           <button type="submit" className={style.btn}>
         <soan>
-        Create an Account
+            {'Create an Account'}
         </soan>
           </button>
         </form>
