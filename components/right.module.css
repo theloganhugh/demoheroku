@@ -1,0 +1,111 @@
+.mbody{
+    height: 866.4px;
+    width:   362px  ;   
+    margin: -5px -30px 0px 0px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgb(89 105 128 / 10%), 0 3px 20px 0 rgb(89 105 128 / 30%), 0 1px 2px 0 rgb(0 0 0 / 5%);
+    border-radius:5px ;
+   }
+   .finput{
+    appearance: none;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 0 2px rgba(103, 66, 145, 0);
+    border-radius: 4px;
+    color: #383E40;
+    transition: all 0.15s ease-out 0s;
+    width: 302px;
+    max-height: 40.4px;
+   }
+.finput:focus{
+    appearance: none;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #9e9d9d;
+    box-shadow: 0 0 4px #79589f;
+
+   
+}
+.flabel{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 13px;
+   padding: 0px 0px 5px;
+   color:#383E40;
+   width: 302px;
+}
+.fspan{
+    color: #DE0A0A;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12.35px;
+}
+.fsel{
+    margin:none;
+    -webkit-box-shadow: none;
+        padding: 0px;
+        margin: 0px;
+        border:none;
+        appearance: none;
+        box-shadow: none;
+        background:none;
+        background: #fff;
+        box-shadow: 0 0 2px rgba(103, 66, 145, 0);
+        border-radius: 4px;
+        color: #383E40;
+        transition: all 0.15s ease-out 0s;
+        width: 302px;
+        max-height: 40.4px;
+       
+}
+.fsel2{
+    padding: 0px;
+        margin: 0px;
+        border:none;
+        appearance: none;
+        box-shadow: none;
+        background:none;
+        background: #fff;
+        box-shadow: 0 0 2px rgba(103, 66, 145, 0);
+        border-radius: 4px;
+        color: #383E40;
+        transition: all 0.15s ease-out 0s;
+        width: 302px;
+        max-height: 40.4px;
+    appearance: none;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #9e9d9d;
+    box-shadow: 0 0 4px #79589f;
+
+   
+}
+.btn{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    border: none;
+    background-color: #1969CA;
+    margin: 5px 0px;
+    padding: 13px 15px;
+    height: 47px;
+    width: 302px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: background 0.1s linear;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background: #0650aa;
+    color: #fff;
+}

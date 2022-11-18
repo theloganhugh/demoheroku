@@ -1,0 +1,123 @@
+.container {
+  background-color:rgba(58,39,120,255);
+  height:160vh;
+  width: 100vw;
+
+}
+
+.main {
+ background-color: rgba(58,39,120,255);
+}
+.sv{
+  margin-right: 12px;
+  width: 17.69px;
+  height: 12.54px;
+}
+.header{
+  background-color: rgba(234,245,254,255);
+  width: vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 32px;
+  padding: 0px 20px;
+}
+.header span{
+  font-size: 11px;
+  padding-right: 6px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.mainhead{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 1082.4px;
+  background-image: url("https://signup.heroku.com/assets/header-illustration-3a4c23d829b8e7030dc9083774e0758b3728928904767e24784d840b40b98c78.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-attachment: fixed;
+}
+.mhbody{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 181px;
+}
+.mhbo{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 1082.4px;
+}
+.footer {
+  display: flex;
+ 
+}
+.mh1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 800px;
+  height: auto;
+  max-height: 47px;
+  font-size: 14px;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.mh1 button {
+padding: 11px 16px;
+ margin: 5px;
+ background: none;
+border: none;
+background-color: #2d1d5c89;
+
+border-radius: 5px;
+}
+.mh1 button span{
+  font-size: 13px;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+.mh1d{
+  margin-left: auto;
+}
+.mh2{
+  width: 800px;
+  height: 36px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.mbcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  width: 100vw;
+  height: 901.4px;
+}
+.mbody{
+  width:790px;
+  height: 901.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 0px 10px 0px 0px;
+  padding: 20px;
+  background-color: #F9F9FB;
+  background-image: url("https://signup.heroku.com/assets/page-illustration-11400c2a5109317ad7e99571ba2a42bc55522ffa8ea6f9dcdff99737ab6149ac.png");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 25%), 0 3px 20px 0 rgb(0 0 0 / 15%);
+}

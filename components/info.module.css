@@ -1,0 +1,30 @@
+.mh{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    max-height: 33.6px;
+    margin: 0px 0px 15px;
+}
+.mh span{ 
+    color:#79589F;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 24px;
+   margin-left: 1rem;
+    font-weight:300;
+    
+}
+.mh img{
+    height: 24.8px;
+    width: 24px;
+  
+}
+.mb{
+
+    margin:0px;
+    color: #383E40;
+    font-size: 14px;
+    margin-left: 1rem;
+    margin:0px 0px 30px
+}

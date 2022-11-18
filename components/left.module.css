@@ -1,0 +1,13 @@
+.mbody{
+ height: 543.8px;
+ width:   418px  ;   
+ padding: 40px 40px 20px;
+ color: black;
+}
+.lb{
+    background-color: rgba(228,228,231,0);
+    height: 1px;
+    border: 0;
+    margin: 50px 0px 40px;
+    background-image: linear-gradient(to right, rgba(228,228,231,0), rgba(228,228,231,0.9) 10%, rgba(228,228,231,0.9) 90%, rgba(228,228,231,0));
+}
