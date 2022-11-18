@@ -27,7 +27,7 @@ export default function Home() {
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Salesforce Developers</title>
+            <title>{"Salesforce Developers"}</title>
             <g
               id="Section-/-Nav-/-Footer-/-Architects-0"
               transform="translate(-148.000000, -447.000000)"
@@ -40,9 +40,9 @@ export default function Home() {
             </g>
           </svg>
 
-          <span style={{ color: "#032D60" }}>Salesforce Developers</span>
-          <span style={{ color: "#444444" }}>/</span>
-          <span style={{ color: "#444444" }}>Heroku</span>
+          <span style={{ color: "#032D60" }}>{"Salesforce Developers"}</span>
+          <span style={{ color: "#444444" }}>{"/"}</span>
+          <span style={{ color: "#444444" }}>{"Heroku"}</span>
         </div>
         <div className={styles.mainhead}>
           <div className={styles.mhbo}>
@@ -50,13 +50,13 @@ export default function Home() {
               <div className={styles.mh1}>
                 <img src="https://signup.heroku.com/assets/logo-horizontal-30c94876b673967b26d0e4a698748b3a157e699845045b3b64fe69706c794bb9.png"></img>
                 <div className={styles.mh1d}>
-                  Already have an account?
+                  {"Already have an account?"}
                   <button>
-                    <span>Log in</span>
+                    <span>{"Log in"}</span>
                   </button>
                 </div>
               </div>
-              <div className={styles.mh2}>Get started on Heroku today</div>
+              <div className={styles.mh2}>{"Get started on Heroku today"}</div>
             </div>
             <div className={styles.mbody}>
               <Left></Left>
